@@ -4,9 +4,19 @@ This package will help you to resize app based on scale ratio of design and devi
 
 ## Getting Started
 
-This project will help you to make app responsive based on a refrence size. you can initialize the project with  refernce size lib will handle the rest of the calculations. just need to append .h for height .w for width .s for size
+This project will help you to make app responsive based on a refrence size. you can initialize the project with  refernce size lib will handle the rest of the calculations. just need to append .h for height .w for width,.r for radius and  .sp for font related size,
 
 #  Basic usage
+
+For initalization import following
+
+import 'package:adaptive_sizer/adaptive_sizer.dart';
+
+where ever you need to use .h,.w,.r,.sp import following
+
+import 'package:adaptive_sizer/adaptive_sizer_extension.dart';
+
+Example :
 
 ```dart
 class MyApp extends StatelessWidget {
