@@ -1,4 +1,4 @@
-# Responsive Sizer
+# Adaptive Sizer
 
 This package will help you to resize app based on scale ratio of design and device.
 

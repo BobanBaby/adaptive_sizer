@@ -1,4 +1,4 @@
-library responsive_sizer;
+library adaptive_sizer;
 
 import 'dart:math';
 

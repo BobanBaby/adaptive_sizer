@@ -1,4 +1,4 @@
-import 'package:responsive_sizer/responsive_sizer.dart';
+import 'package:adaptive_sizer/adaptive_sizer.dart';
 
 extension SizerExt on num {
   double get h => SizeConfig.getHeight(this);
