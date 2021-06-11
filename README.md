@@ -2,11 +2,19 @@
 
 This package will help you to resize app based on scale ratio of design and device.
 
+# Content
+
+- [Getting Started](#basic-usage)
+- [Basic usage](#take-note)
+- [Take Note](#take-note)
+- [Example](#to-set-font-size-to-stay-same-even-if-system-font-size-is-different)
+- [Community Support](#community-support)
+
 ## Getting Started
 
 This project will help you to make app responsive based on a refrence size. you can initialize the project with  refernce size lib will handle the rest of the calculations. just need to append .h for height .w for width,.r for radius and  .sp for font related size,
 
-#  Basic usage
+##  Basic usage
 
 For initalization import following
 
@@ -14,14 +22,14 @@ For initalization import following
 import 'package:adaptive_sizer/adaptive_sizer.dart';
 ```
 
-# Take Note
+## Take Note
 
 You need to import `adaptive_sizer_extension` package in order to access `number.h`, `number.w`,`number.r` and `number.sp`
 
 ```dart
 import 'package:adaptive_sizer/adaptive_sizer_extension.dart';
 ```
-Example :
+## Example
 
 ```dart
 class MyApp extends StatelessWidget {
@@ -56,7 +64,7 @@ class _HomePageState extends State<HomePage> {
   }
 }
 ```
-#  To set font size to stay same even if system font size is different
+##  To set font size to stay same even if system font size is different
 
 ```dart
  MaterialApp(
@@ -74,7 +82,7 @@ class _HomePageState extends State<HomePage> {
       ),
 ```
 
-# Community Support
+## Community Support
 
 If you have any suggestions or issues, feel free to open an [issue](https://github.com/BobanBaby/adaptive_sizer/issues)
 
