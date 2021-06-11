@@ -14,7 +14,9 @@ For initalization import following
 import 'package:adaptive_sizer/adaptive_sizer.dart';
 ```
 
-where ever you need to use .h,.w,.r,.sp import following
+# Take Note
+
+You need to import `adaptive_sizer_extension` package in order to access `number.h`, `number.w`,`number.r` and `number.sp`
 
 ```dart
 import 'package:adaptive_sizer/adaptive_sizer_extension.dart';
@@ -71,3 +73,9 @@ class _HomePageState extends State<HomePage> {
         home: HomePage(title: 'Demo'),
       ),
 ```
+
+# Community Support
+
+If you have any suggestions or issues, feel free to open an [issue](https://github.com/BobanBaby/adaptive_sizer/issues)
+
+If you would like to contribute, feel free to create a [PR](https://github.com/BobanBaby/adaptive_sizer/pulls)
