@@ -5,5 +5,7 @@ extension SizerExt on num {
 
   double get w => SizeConfig.getWidth(this);
 
-  double get s => SizeConfig.getHeight(this);
+  double get sp => SizeConfig.getFontSize(this);
+
+  double get r => SizeConfig.getRadius(this);
 }
