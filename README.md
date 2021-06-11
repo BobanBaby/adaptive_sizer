@@ -7,7 +7,7 @@ This package will help you to resize app based on scale ratio of design and devi
 - [Getting Started](#basic-usage)
 - [Basic usage](#take-note)
 - [Take Note](#take-note)
-- [Example](#to-set-font-size-to-stay-same-even-if-system-font-size-is-different)
+- [Example](#example)
 - [Community Support](#community-support)
 
 ## Getting Started
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
   }
 }
 ```
-##  To set font size to stay same even if system font size is different
+To set font size to stay same even if system font size is different
 
 ```dart
  MaterialApp(
