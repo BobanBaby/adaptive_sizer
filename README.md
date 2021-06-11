@@ -10,12 +10,15 @@ This project will help you to make app responsive based on a refrence size. you 
 
 For initalization import following
 
+```dart
 import 'package:adaptive_sizer/adaptive_sizer.dart';
+```
 
 where ever you need to use .h,.w,.r,.sp import following
 
+```dart
 import 'package:adaptive_sizer/adaptive_sizer_extension.dart';
-
+```
 Example :
 
 ```dart

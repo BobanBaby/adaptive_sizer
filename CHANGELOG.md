@@ -6,3 +6,8 @@
 
 * Updated documents and license
 
+## 0.0.3
+
+* Readme udated with clear instruction about importing packages 
+
+
