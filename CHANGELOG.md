@@ -11,3 +11,7 @@
 * Readme udated with clear instruction about importing packages 
 
 
+## 0.0.4
+
+* Rename of of function SizeConfig to AdaptiveSizerConfig and improved import uisng @part
+

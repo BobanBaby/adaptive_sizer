@@ -16,19 +16,12 @@ This project will help you to make app responsive based on a refrence size. you 
 
 ##  Basic usage
 
-For initalization import following
+import following
 
 ```dart
 import 'package:adaptive_sizer/adaptive_sizer.dart';
 ```
 
-## Take Note
-
-You need to import `adaptive_sizer_extension` package in order to access `number.h`, `number.w`,`number.r` and `number.sp`
-
-```dart
-import 'package:adaptive_sizer/adaptive_sizer_extension.dart';
-```
 ## Example
 
 ```dart
@@ -55,7 +48,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    SizeConfig.init(
+    AdaptiveSizerConfig.init(
       context,
         designWidth: 375,
         designHeight: 800,

@@ -1,6 +1,6 @@
 name: adaptive_sizer
 description: This package will help you to resize app based on scale ratio of design and device.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/BobanBaby
 
 environment:

@@ -1,11 +1,11 @@
-import 'package:adaptive_sizer/adaptive_sizer.dart';
+part of adaptive_sizer;
 
 extension SizerExt on num {
-  double get h => SizeConfig.getHeight(this);
+  double get h => AdaptiveSizerConfig.getHeight(this);
 
-  double get w => SizeConfig.getWidth(this);
+  double get w => AdaptiveSizerConfig.getWidth(this);
 
-  double get sp => SizeConfig.getFontSize(this);
+  double get sp => AdaptiveSizerConfig.getFontSize(this);
 
-  double get r => SizeConfig.getRadius(this);
+  double get r => AdaptiveSizerConfig.getRadius(this);
 }
