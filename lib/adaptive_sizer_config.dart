@@ -15,13 +15,15 @@ class AdaptiveSizerConfig {
 
   AdaptiveSizerConfig._();
 
-  static final AdaptiveSizerConfig _adaptiveSizerConfig = AdaptiveSizerConfig._();
+  static final AdaptiveSizerConfig _adaptiveSizerConfig =
+      AdaptiveSizerConfig._();
 
   factory AdaptiveSizerConfig() {
     return _adaptiveSizerConfig;
   }
 
-  static init(BuildContext context, {double? designWidth, double? designHeight}) {
+  static init(BuildContext context,
+      {double? designWidth, double? designHeight}) {
     _mediaQueryData = MediaQuery.of(context);
     _screenWidth = _mediaQueryData.size.width;
     _screenHeight = _mediaQueryData.size.height;
